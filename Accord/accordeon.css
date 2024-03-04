@@ -1,0 +1,45 @@
+.accord {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+span {
+    font-size: 14px;
+    color: rgb(134, 17, 8);
+}
+.accordeon span {
+    display: none;
+}
+.accordeon:hover span {
+    display: inline; 
+}
+
+h2, p {
+    color: rgb(60, 56, 63);;
+}
+.accordeon {
+    background-color: #eee;
+    color: #1e1c1c;
+    border-radius: 10px;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    font-weight: 900;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.active, .accordeon:hover {
+    background-color: #ccc; 
+}
+
+.description {
+    padding: 0 20px;
+    display: none;
+    background-color: transparent;
+    overflow: hidden;
+
+}

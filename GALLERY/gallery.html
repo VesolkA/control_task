@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY task</title>
+    <link rel="stylesheet" href="./gallery.css">
+    <link rel="stylesheet" href="../index.css">
+</head>
+<body> 
+    
+    <div class="gallery" id="gallery">
+        <div class="gallery__text">
+            <h2>Gallery of fairy-tale creatures!</h2>
+            <p>Cartoon Dragons:</p>
+        </div>
+        <ul class="gallery__thumbs thumbs">
+            <li class="gallery__img"><a href="image3.png"><img src="image3.png" alt="Black Rainold Dragon" ></a></li>
+            <li class="gallery__img" ><a href="image5.png"><img src="image5.png" alt="Purple Azai Dragon" ></a></li>
+            <li class="gallery__img"><a href="image6.png"><img src="image6.png" alt="Blue Sky Dragon" ></a></li>
+            <li class="gallery__img"><a href="image8.png"><img src="image8.png" alt="Lilac Orange Dracon"></a></li>
+        </ul>
+        <div class="gallery__preview preview hide">
+            <button class="gallery__previewclose close" id="closeButton" onclick="this.parentElement.style.display='none'">X</button>
+            <div id="imgtext"></div>
+            <div class="gallery__previmg"></div>
+        </div>
+    </div>
+
+    <script src="gallery.js"></script>
+</body>
+</html>
+

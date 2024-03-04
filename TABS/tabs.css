@@ -1,0 +1,53 @@
+.tabulation {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.tabs__buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+}
+
+.tabs__button {
+    padding: 16px 16px;
+    border-radius: 10px;
+    background-color: #f7f5f5;
+    cursor: pointer;
+    font-weight: 600;
+    border: 2px solid #A8A8A8;
+    white-space: nowrap;
+}
+
+.tabs__button.active, .tabs__add:hover {
+    border: 2px solid #3c383f;
+    background: #d4d4d4;
+}
+
+.tabs__add {
+    border-radius: 10px;
+    font-size: 30px;
+    background: #deecf6;
+    border: 2px solid #A8A8A8;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tabs__contents {
+    display: flex;
+    max-height: 300px;
+}
+.tabs__content {
+    padding-top: 10px;
+    flex: none;
+    overflow: hidden;
+    width: 0;
+    
+}
+.tabs__content.active {
+    width: 100%;
+}
